@@ -1,11 +1,11 @@
 {
   "name": "react-native-sim",
   "version": "0.3.0",
-  "description": "",
+  "description": "Read SIM card data from devices, like phone numbers and carrier names",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sigrlami/react-native-sim"
+    "url": "https://github.com/theplatapi/react-native-sim"
   },
   "typings": "index.d.ts",
   "keywords": [
@@ -24,6 +24,6 @@
     "react": "^15.4.2",
     "react-native": "*"
   },
-  "author": "Sergey Bushnyak <sergey.bushnyak@sigrlami.eu> (https://github.com/sigrlami)",
+  "author": "Allen Korenevsky",
   "license": "MIT"
 }
