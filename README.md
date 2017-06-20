@@ -6,7 +6,6 @@ React Native plugin to get the device's SIM data (carrier name, mcc mnc, country
 ## Supported Platforms
 
 - Android
-- [wip] iOS
 
 ## Usage
 
@@ -27,5 +26,8 @@ Since Android 6 (API level 23) a few methods of `TelephonyManager` require permi
 All methods of `SubscriptionManager` require permission `READ_PHONE_STATE`.
 
 `SubscriptionManager` is able to access multiple SIM data. The return object of this cordova plugin provides the details of the available sim cards in an array (`cards`).
+
+`<uses-permission android:name="android.permission.READ_PHONE_STATE"/>`
+
 
 
