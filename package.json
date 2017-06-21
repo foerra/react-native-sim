@@ -1,5 +1,5 @@
 {
-  "name": "react-native-sim",
+  "name": "@scedast/react-native-sim",
   "version": "0.3.1",
   "description": "Read SIM card data from devices, like phone numbers and carrier names",
   "main": "index.js",
