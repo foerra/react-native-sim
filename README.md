@@ -1,7 +1,16 @@
 # react-native-sim
 React Native plugin to get the device's SIM data (carrier name, mcc mnc, country code, phone number, etc)
 
-## Installation 
+## Usage
+```es6
+import Sim from '@scedast/react-native-sim';
+
+// Includes all available SIM card information
+Sim.getSimInfo();
+Sim.getTelephoneNumber();
+Sim.getCarrierName();
+Sim.getCountryCode();
+```
 
 ## Supported Platforms
 
