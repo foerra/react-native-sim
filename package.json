@@ -18,9 +18,9 @@
     "phone number"
   ],
   "dependencies": {
-    "@types/react-native": "^0.37.6"
   },
   "devDependencies": {
+    "@types/react-native": "0.46.4",
     "react-native": "*"
   },
   "author": "Allen Korenevsky",
